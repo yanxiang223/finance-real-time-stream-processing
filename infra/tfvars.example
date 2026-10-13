@@ -1,0 +1,13 @@
+# 变量示例配置
+
+region               = "cn-north-4"
+project_name         = "stream-processing"
+vpc_cidr            = "10.0.0.0/16"
+subnet_cidr         = "10.0.1.0/24"
+dis_shard_count     = 1
+function_runtime    = "Node.js18.15"
+function_timeout    = 10
+function_memory_size = 128
+
+# GeminiDB 密码（至少8位，包含大小写和数字）
+geminidb_password = "ChangeMe123"

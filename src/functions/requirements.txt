@@ -1,0 +1,5 @@
+# FunctionGraph 函数依赖
+
+# 华为云 GeminiDB Cassandra 客户端
+# 生产部署时需将 node_modules 打包到函数代码中
+# npm install cassandra-driver
